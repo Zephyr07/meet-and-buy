@@ -1,0 +1,14 @@
+prise en main
+1. cloner le projet
+2. installer composer :https://getcomposer.org/download/
+Etant dans le dossier racine du projet (meet-and-but/) faire :
+3. composer install pour installer les dependences laravel
+4. bower install pour les dependences frontend
+5. creer un fichier nomme .env ( ne pas l ajout au depot ) ce fichier contient les configuration du site
+ son contenue est pourvue par le fichier .env-example
+6. configurez dans ce fichier .env les parametre d acces a la bd
+7. Execute les commande suivante :
+  php artisan migrate ( pour creer les tables )
+  php artisan key:generate ( pour generer un cle pour  votre application )
+
+ce projet est base sur la solution e-commerce :https://github.com/ant-vel/antVel
